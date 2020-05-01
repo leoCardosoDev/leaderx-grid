@@ -1,0 +1,10 @@
+.bg-mountains{
+  background-image: url("../img/bg-montains.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+
+  @media only screen and (max-width: $bp-large){
+    background-image: linear-gradient(rgba($color-primary-light, .93), rgba($color-primary-dark, .93))
+  }
+}

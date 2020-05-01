@@ -1,0 +1,26 @@
+.copyright{
+  grid-row: 12 / 13;
+  grid-column: full-start / full-end;
+  background-image: linear-gradient(to bottom, $color-grey, $color-white);
+  justify-items: center;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(20rem, 1fr));
+  align-items: center;
+  padding: 2.5rem 0;
+
+  @media only screen and (max-width: $bp-small){
+    grid-template-columns: repeat(3, minmax(2rem, 1fr));
+  }
+
+  &__text{
+    grid-column: 2 / 3;
+    align-self: center;
+
+    @media only screen and (max-width: $bp-small){
+      grid-column: 1 / -1;
+      align-self: center;
+    }
+  }
+
+}

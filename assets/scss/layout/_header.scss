@@ -1,0 +1,7 @@
+.header{
+  background-color: $color-black;
+  grid-column: full-start / full-end;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}

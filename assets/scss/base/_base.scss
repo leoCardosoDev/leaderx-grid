@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%'
+
+  @media only screen and (max-width: $bp-large){
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-medium){
+    font-size: 35%;
+  }
+
+  @media only screen and (max-width: $bp-small){
+    font-size: 60%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $font-primary;
+  font-size: $default-font-size;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark-1;
+  overflow-x: hidden;
+}
+
+.container{
+  background-color: $color-black;
+  display: grid;
+  grid-template-rows: 10.5rem minmax(50vw, 65vh) repeat(10, min-content);
+  grid-template-columns: [full-start] minmax(4rem, 1fr) [center-start] repeat(10, [col-start]
+  minmax(min-content, 14.5rem)[col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+  @media only screen and (max-width: $bp-large){
+    grid-template-rows: 7.5rem minmax(30rem, 50rem) repeat(8, max-content);
+  }
+}
+
+.particles-js-canvas-el{
+  background-color: transparent;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0;
+}
