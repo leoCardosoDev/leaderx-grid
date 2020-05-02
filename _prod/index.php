@@ -62,27 +62,22 @@
 <section class="banner" id="section-banner">
 
     <span class="banner__tag banner__tag--1">habilidade</span>
-    <span class="banner__tag banner__tag--2">juízo</span>
+    <!--<span class="banner__tag banner__tag--2">juízo</span>-->
     <span class="banner__tag banner__tag--3">inteligência</span>
-
-    <span class="banner__tag banner__tag--4">razão</span>
-    <span class="banner__tag banner__tag--5">aptidão</span>
-    <span class="banner__tag banner__tag--6">bom-senso</span>
-
-    <span class="banner__tag banner__tag--7">entendimento</span>
-    <span class="banner__tag banner__tag--8">sagacidade</span>
-
-    <span class="banner__tag banner__tag--9">finura</span>
-    <span class="banner__tag banner__tag--10">talento</span>
-
-    <span class="banner__tag banner__tag--11">engenhosidade</span>
-    <span class="banner__tag banner__tag--12">perspicácia</span>
-
-    <span class="banner__tag banner__tag--13">compreensão</span>
-    <span class="banner__tag banner__tag--14">destreza</span>
-    <span class="banner__tag banner__tag--15">agudeza</span>
-
+    <span class="banner__tag banner__tag--4">networking</span>
+    <!--<span class="banner__tag banner__tag--5">pioneirimos</span>-->
+    <span class="banner__tag banner__tag--6">transformação</span>
+    <span class="banner__tag banner__tag--7">inovação</span>
+    <span class="banner__tag banner__tag--8">oportunidades</span>
+    <span class="banner__tag banner__tag--9">reflexões</span>
+    <span class="banner__tag banner__tag--10">lideranças</span>
+    <span class="banner__tag banner__tag--11">negócios</span>
+    <span class="banner__tag banner__tag--12">entretenimento</span>
+    <span class="banner__tag banner__tag--13">colaboração</span>
+    <span class="banner__tag banner__tag--14">experiências</span>
+    <span class="banner__tag banner__tag--15">protagonismo</span>
     <img src="assets/img/nuvemtag-bg.png" alt="LeaderX Logo" class="banner__img">
+
 </section>
 <!-- End Section banner -->
 
@@ -232,16 +227,23 @@
     <div class="composition composition__right">
 
         <div class="composition__right composition__right--text">
+            <!--
             <h2 class="heading-2 mb-sm">PERFIL DOS PARTICIPANTES</h2>
             <p class="paragraph paragraph--light">
                 Presidentes, CEO’s, vice-presidentes, investidores, conselheiros, empresários, country
                 managers, general directors, general managers e diretores chaves.
             </p>
-            <h2 class="heading-2 mb-sm">EXCLUSIVIDADE</h2>
+             -->
+            <h2 class="heading-2 mb-sm">PARTICIPAÇÃO</h2>
             <p class="paragraph paragraph--light">
-                Para participar, é necessário ser indicado pelos participantes ativos ou escolhido pelos sócios
-                presentes em diversos países.
+                Para participar, é necessário ser indicado pelos participantes ativos ou escolhido pelos
+                sócios presentes em diversos países. Nossos encontros são fechados, exclusivos, limitados
+                a poucas vagas e dedicados a empresários, altos executivos e profissionais com notoriedade,
+                englobando Presidentes, CEOs, Vice-presidentes, Investidores, Conselheiros,
+                Country Directors, Country Managers, General Directors, General Managers
+                e Diretores Chaves.
             </p>
+
         </div>
 
         <div class="composition__right composition__right--globo">
@@ -601,23 +603,15 @@
         <div class="slick-slider">
             <div><img src="assets/img/logo-apoio-pillbiz.png" alt="Logo PillBiz"></div>
             <div><img src="assets/img/logo-apoio-pillula.png" alt="Logo Pilula Criativa"></div>
-            <div><img src="assets/img/logo-apoio-ableto.png" alt="Logo Pilula Criativa"></div>
-            <div><img src="assets/img/logo-apoio-arquitetando-paladar.png" alt="Logo Arquitetando Paladar"></div>
-            <div><img src="assets/img/logo-apoio-congressy.png" alt="Logo Congressy"></div>
-            <div><img src="assets/img/logo-apoio-construide.png" alt="Logo Construide"></div>
-            <div><img src="assets/img/logo-apoio-its-informov.png" alt="Logo Its Informov"></div>
+            <div><img src="assets/img/logo-apoio-ableto.png" alt="Logo AbleTo"></div>
+            <div><img src="assets/img/logo-lz-filmes-leaderx.png" alt="Logo LZ Filmes"></div>
+            <!--<div><img src="assets/img/logo-apoio-arquitetando-paladar.png" alt="Logo Arquitetando Paladar"></div>-->
+            <!--<div><img src="assets/img/logo-apoio-congressy.png" alt="Logo Congressy"></div>-->
+            <!--<div><img src="assets/img/logo-apoio-construide.png" alt="Logo Construide"></div>-->
+            <!--<div><img src="assets/img/logo-apoio-its-informov.png" alt="Logo Its Informov"></div>-->
             <div><img src="assets/img/logo-apoio-prestus.png" alt="Logo Prestus"></div>
-            <div><img src="assets/img/logo-apoio-revista-raca.png" alt="Logo Revista Raça"></div>
-            <div><img src="assets/img/logo-apoio-sixSigma.png" alt="Logo Six Sigma"></div>
-        </div>
-    </div>
-
-    <h2 class="heading sponsors__heading--4">Associados</h2>
-    <div class="sponsors__4">
-        <div class="slick-slider">
-            <div><img src="assets/img/logo-associados-gbf40.png" alt="Logo GBF 4.0"></div>
-            <div><img src="assets/img/logo-associados-gbdn.png" alt="Logo GBDN"></div>
-            <div><img src="assets/img/logo-associados-bbx.png" alt="Logo BBX"></div>
+            <!--<div><img src="assets/img/logo-apoio-revista-raca.png" alt="Logo Revista Raça"></div>-->
+            <!--<div><img src="assets/img/logo-apoio-sixSigma.png" alt="Logo Six Sigma"></div>-->
         </div>
     </div>
 
@@ -736,23 +730,23 @@
 
     <ul class="logos">
         <li class="logos__item">
-            <a href="https://pillbiz.com.br" target="_blank" class="logos__link">
+            <a href="#" target="_blank" class="logos__link">
                 <img class="logos__img" src="assets/img/gbdn.png" alt="GBDN">
             </a>
         </li>
         <li class="logos__item">
-            <a href="https://pillbiz.com.br" target="_blank" class="logos__link">
+            <a href="#" target="_blank" class="logos__link">
                 <img class="logos__img" src="assets/img/gbf.png" alt="GBF">
             </a>
         </li>
         <li class="logos__item">
-            <a href="https://pillbiz.com.br" target="_blank" class="logos__link">
+            <a href="#" target="_blank" class="logos__link">
                 <img class="logos__img" src="assets/img/bbx.png" alt="BBX">
             </a>
         </li>
         <li class="logos__item">
             <a href="https://pillbiz.com.br" target="_blank" class="logos__link">
-                <img class="logos__img" src="assets/img/pillbiz.png" alt="BBX">
+                <img class="logos__img" src="assets/img/pillbiz.png" alt="PillBiz">
             </a>
         </li>
     </ul>
