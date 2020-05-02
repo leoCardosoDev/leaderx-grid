@@ -2,7 +2,7 @@
   background-image: url("../img/LeaderX_testimonials-depoimento.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 100% auto;
+  background-size: 100% 1720px;
   padding-bottom: 5.5rem;
 
   grid-column: full-start / full-end;
@@ -93,13 +93,16 @@
     justify-self: center;
     align-self: center;
 
+    transform: translateY(-15rem);
+
     @media only screen and (max-width: $bp-largest){
-      padding: 5rem 0;
+      padding: 0;
     }
 
     @media only screen and (max-width: $bp-medium){
       grid-column: 2 / 3;
       grid-row: 1 / 2;
+      transform: translateY(-20rem);
     }
   }
 

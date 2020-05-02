@@ -64,10 +64,10 @@
     }
 
     &--6{
-      font-size: 2rem;
+      font-size: 4rem;
 
       grid-row: 5 / 7;
-      grid-column: 12 / 14;
+      grid-column: 9 / 14;
       transform: translateX(-1rem) translateY(4rem);
     }
 
@@ -91,7 +91,7 @@
       font-size: 5rem;
 
       grid-row: 8 / 10;
-      grid-column: 5 /7 ;
+      grid-column: 4 /7 ;
       transform: translateX(1.5rem) translateY(-1.5rem);
     }
 
@@ -107,7 +107,7 @@
       font-size: 5rem;
 
       grid-row:  10 / 12;
-      grid-column: 5 / 10 ;
+      grid-column: 7 / 10 ;
       transform: translateX(-3.5rem) translateY(-2.5rem);
     }
 
@@ -120,7 +120,7 @@
     }
 
     &--13{
-      font-size: 1.5rem;
+      font-size: 2.5rem;
 
       grid-row: 12 / 13;
       grid-column: 5 / 7 ;
@@ -128,7 +128,7 @@
     }
 
     &--14{
-      font-size: 1.5rem;
+      font-size: 2.5rem;
 
       grid-row: 12 / 13;
       grid-column: 9 / 11 ;
@@ -136,7 +136,7 @@
     }
 
     &--15{
-      font-size: 1.5rem;
+      font-size: 2.5rem;
 
       grid-row: 12 / 13;
       grid-column: 12 / 14 ;
